@@ -1,0 +1,100 @@
+body {
+  font-size: 16px;
+  color: #A0522D;
+  background-color: #5F9EA0;
+  font-family: 'Oxygen', sans-serif;
+
+}
+
+/*Navigation bar*/
+nav .container {
+	margin: 0;
+	margin-bottom: 20px;
+}
+
+/*Entire Navigation bar*/
+#header-nav{
+	background-color: #191970;
+	border-radius: 0;
+	border: 0;
+}
+
+.navbar-brand {
+	padding-top: 25px; 
+}
+/*Company Name*/
+.navbar-brand h1 {
+	font-family: 'Lora', serif;
+	color: #F4A460;
+	font-size: 1.5em;               
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;
+	margin-top: 0;
+	margin-bottom: 0;
+	
+	
+}
+
+/*Each element in the menu list*/
+#nav-list a {
+	color: #B22222;
+	text-align: center;
+}
+
+/*Change background when pass over element*/
+#nav-list a:hover {
+	background: #E7E7E7;
+}
+
+/*Menu button*/
+button {
+	border: 1px solid #F4A460;
+	color: #5F9EA0;
+}
+
+
+#main-content {
+	width: 100%;
+}
+
+
+/*Chicken Menu*/
+#chicken {
+	border: 2px solid #fff;
+	background-color: #D2B48C;
+	
+}
+/*Chicken text*/
+#chicken h3 {
+	
+	color: #B22222/*#FF6347*/;
+	font-size: 1.8em;
+	font-weight: bold;
+	
+}
+/*Chicken description*/
+#chicken p {
+	font-size: .8em;
+	color: #696969;
+	text-align: justify;
+
+}
+
+/*Our Menu text*/
+h2 {
+	margin-bottom: 40px;
+	font-weight: bold;
+	font-size: 1.8em;
+	margin-top: 0;
+	color: #006400;
+}
+
+/*Extra small screen size*/
+@media (max-width: 767px) {
+	
+	.row {
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+}
