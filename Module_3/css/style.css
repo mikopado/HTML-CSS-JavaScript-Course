@@ -71,8 +71,17 @@ section {
 	background-color: #D2B48C;	
 	margin-bottom: 20px;	
 	margin-right: 10px;			/*IMPORTANT*/	/*Margin to separate element in a row. Need to have a div with class col-sm etc and nested a section within the element otherwise it cannot fit 3 elements in a row with col-md-4*/
-
+	position: relative;
 }
+
+a {
+	
+	font-size: .8em;
+	color: #191970;
+	margin-left: 10px;
+	
+}
+
 
 .row div {
 	padding-right: 0px;
@@ -82,7 +91,7 @@ section {
 /*Chicken, Beef, Sushi text*/
 h3 {
 	
-	color: #B22222/*#FF6347*/;
+	color: #B22222;
 	font-size: 1.8em;
 	font-weight: bold;
 	
