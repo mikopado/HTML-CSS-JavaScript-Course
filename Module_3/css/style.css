@@ -1,3 +1,4 @@
+
 body {
   font-size: 16px;
   color: #A0522D;
@@ -9,7 +10,7 @@ body {
 /*Navigation bar*/
 nav .container {
 	margin: 0;
-	margin-bottom: 20px;
+	
 }
 
 /*Entire Navigation bar*/
@@ -21,6 +22,7 @@ nav .container {
 
 .navbar-brand {
 	padding-top: 25px; 
+	margin-bottom: 20px;
 }
 /*Company Name*/
 .navbar-brand h1 {
@@ -29,8 +31,7 @@ nav .container {
 	font-size: 1.5em;               
 	font-weight: bold;
 	text-shadow: 1px 1px 1px #222;
-	margin-top: 0;
-	margin-bottom: 0;
+	margin-top: 0;	
 	
 	
 }
@@ -52,31 +53,47 @@ button {
 	color: #5F9EA0;
 }
 
-
-#main-content {
-	width: 100%;
-}
-
-
-/*Chicken Menu*/
-#chicken {
-	border: 2px solid #fff;
-	background-color: #D2B48C;
+#main-content.container {
 	
+	width: 100%;
+
 }
-/*Chicken text*/
-#chicken h3 {
+
+.row {
+	width: 100%;
+	margin-right: 0px;
+	margin-left: 5px;
+}
+
+/*Any sections Menu*/
+section {
+	border: 1px solid #fff;
+	background-color: #D2B48C;	
+	margin-bottom: 20px;	
+	margin-right: 10px;			/*IMPORTANT*/	/*Margin to separate element in a row. Need to have a div with class col-sm etc and nested a section within the element otherwise it cannot fit 3 elements in a row with col-md-4*/
+
+}
+
+.row div {
+	padding-right: 0px;
+	padding-left: 0px;
+}
+
+/*Chicken, Beef, Sushi text*/
+h3 {
 	
 	color: #B22222/*#FF6347*/;
 	font-size: 1.8em;
 	font-weight: bold;
 	
 }
-/*Chicken description*/
-#chicken p {
+/*Any descriptions*/
+p {
 	font-size: .8em;
 	color: #696969;
 	text-align: justify;
+	padding-left: 10px;
+	padding-right: 10px;
 
 }
 
@@ -93,8 +110,8 @@ h2 {
 @media (max-width: 767px) {
 	
 	.row {
-		margin-left: auto;
-		margin-right: auto;
+		margin-left: 10px;
+		margin-right: 10px;
 	}
 
 }
