@@ -1,0 +1,126 @@
+
+body {
+  font-size: 16px;
+  color: #A0522D;
+  background-color: #5F9EA0;
+  font-family: 'Oxygen', sans-serif;
+
+}
+
+/*Navigation bar*/
+nav .container {
+	margin: 0;
+	
+}
+
+/*Entire Navigation bar*/
+#header-nav{
+	background-color: #191970;
+	border-radius: 0;
+	border: 0;
+}
+
+.navbar-brand {
+	padding-top: 25px; 
+	margin-bottom: 20px;
+}
+/*Company Name*/
+.navbar-brand h1 {
+	font-family: 'Lora', serif;
+	color: #F4A460;
+	font-size: 1.5em;               
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;
+	margin-top: 0;	
+	
+	
+}
+
+/*Each element in the menu list*/
+#nav-list a {
+	color: #B22222;
+	text-align: center;
+}
+
+/*Change background when pass over element*/
+#nav-list a:hover {
+	background: #E7E7E7;
+}
+
+/*Menu button*/
+button {
+	border: 1px solid #F4A460;
+	color: #5F9EA0;
+}
+
+#main-content.container {
+	
+	width: 100%;
+
+}
+
+.row {
+	width: 100%;
+	margin-right: 0px;
+	margin-left: 5px;
+}
+
+/*Any sections Menu*/
+section {
+	border: 1px solid #fff;
+	background-color: #D2B48C;	
+	margin-bottom: 20px;	
+	margin-right: 10px;			/*IMPORTANT*/	/*Margin to separate element in a row. Need to have a div with class col-sm etc and nested a section within the element otherwise it cannot fit 3 elements in a row with col-md-4*/
+	position: relative;
+}
+
+a {
+	
+	font-size: .8em;
+	color: #191970;
+	margin-left: 10px;
+	
+}
+
+
+.row div {
+	padding-right: 0px;
+	padding-left: 0px;
+}
+
+/*Chicken, Beef, Sushi text*/
+h3 {
+	
+	color: #B22222;
+	font-size: 1.8em;
+	font-weight: bold;
+	
+}
+/*Any descriptions*/
+p {
+	font-size: .8em;
+	color: #696969;
+	text-align: justify;
+	padding-left: 10px;
+	padding-right: 10px;
+
+}
+
+/*Our Menu text*/
+h2 {
+	margin-bottom: 40px;
+	font-weight: bold;
+	font-size: 1.8em;
+	margin-top: 0;
+	color: #006400;
+}
+
+/*Extra small screen size*/
+@media (max-width: 767px) {
+	
+	.row {
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+
+}
